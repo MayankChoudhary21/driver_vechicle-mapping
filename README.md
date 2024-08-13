@@ -1,6 +1,5 @@
 # Vehicle-Driver Mapping System
 
-![Project Logo](path/to/logo.png) <!-- Optional: You can add a project logo here -->
 
 ## Overview
 
