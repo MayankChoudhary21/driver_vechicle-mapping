@@ -1,3 +1,51 @@
+# Vehicle-Driver Mapping System
+
+![Project Logo](path/to/logo.png) <!-- Optional: You can add a project logo here -->
+
+## Overview
+
+The **Vehicle-Driver Mapping System** is a web application designed to efficiently manage the assignment of drivers to vehicles. It provides a comprehensive interface for creating driver profiles, assigning them to vehicles, handling scheduling conflicts, and managing requests. This system is ideal for fleet management, ensuring smooth operations and avoiding scheduling overlaps.
+
+## Features
+
+- **Driver Creation:** Users can create and store driver profiles with necessary attributes, such as name, phone number, and location.
+- **Vehicle-Driver Assignment:** Drivers can be assigned to vehicles with time-bound scheduling, preventing overlapping assignments.
+- **Conflict Handling:** The system checks for scheduling conflicts and alerts users if a driver is already assigned during a given timeframe.
+- **Driver Assignment Requests:** Drivers can receive, accept, or reject assignment requests.
+- **Location-Based Assignment:** Users can search for available drivers based on proximity to a specified location.
+- **Responsive Design:** The application is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Demo
+
+<!-- You can add a live demo link or a GIF/video showing the application in action -->
+[Live Demo]https://drive.google.com/file/d/1E-FSZQAcwJ3XgVq8NeMv8Z8KfuZuS_dV/view?usp=sharing)
+
+
+
+## Installation
+
+To get started with the Vehicle-Driver Mapping System, follow these steps:
+
+### Backend Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/vehicle-driver-mapping-system.git
+   cd vehicle-driver-mapping-system/backend
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
