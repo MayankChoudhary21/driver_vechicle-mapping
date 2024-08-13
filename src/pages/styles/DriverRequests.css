@@ -1,0 +1,62 @@
+/* Container for the driver requests table */
+.driver-requests-container {
+    background-color: #ffffff; /* White background */
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 8px;
+    padding: 40px; /* Increased padding for more space inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1600px; /* Further increased max-width for a larger container */
+    margin: 50px auto; /* Increased margin for more space around the container */
+}
+
+/* Styling the table */
+.driver-requests-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders for a clean look */
+}
+
+.driver-requests-table th, .driver-requests-table td {
+    border: 1px solid #ddd;
+    padding: 15px; /* Increased padding for more space inside table cells */
+    text-align: left;
+}
+
+.driver-requests-table th {
+    background-color: #4caf50; /* Green header background */
+    color: white;
+}
+
+.driver-requests-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for alternate rows */
+}
+
+.driver-requests-table tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+}
+
+/* Styling for the buttons inside the table */
+.driver-requests-table button {
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px; /* Further increased padding for larger buttons */
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.driver-requests-table button:hover {
+    background-color: darkgreen;
+}
+
+/* Styling for the status text */
+.status-accepted {
+    color: green;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: red;
+    font-weight: bold;
+}
